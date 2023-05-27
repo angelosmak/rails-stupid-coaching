@@ -1,0 +1,10 @@
+<h2>Stupidest Coach</h2>
+<div class="card bg-info" style="width: 18rem;">
+  <p><%= params[:question] %></p>
+  <h5 class="card-title">- You</h5>
+</div>
+<div class="card bg-light" style="width: 18rem;">
+  <p><%= @answer  %></p>
+  <h5>- Coach</h5>
+</div>
+<%= link_to "Ask another question", ask_path %>
